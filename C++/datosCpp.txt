@@ -1,0 +1,18 @@
+-----------------------------------   1  --------------------------------------------
+El ‘namespace’
+
+C como lenguaje tiene un conjunto de palabras reservadas, como por ejemplo: if, for, while. C++ es una ampliación, por lo tanto tiene que agregar nuevas palabras reservadas. Éstas palabras reservadas están en un ‘namespace’ (espacio de nombres). En específico cout y cin están el namespace std (standard).
+
+Si no declararamos que vamos a usar el namespace std (using namespace std;), cada vez que quisieramos usar cout, tendríamos que escribir std::cout.
+
+
+------------------------------------  2  ---------------------------------------------
+Los conocidos operadores lógicos AND, OR y NOT pueden ser utilizados como palabras en el lenguaje C++ o como operadores
+
+if ( ( a == b ) or ( a == c) )
+{
+   ...
+}
+
+
+

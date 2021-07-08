@@ -1,0 +1,2 @@
+Producto:arroz Precio:129.0
+Total a pagar:129.0

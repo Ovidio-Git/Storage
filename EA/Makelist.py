@@ -1,7 +1,10 @@
+import pandas as pd
+
 def run():
-  data = input("Inserte la data para Splitear:\n")
+  df = pd.read_excel('/content/drive/MyDrive/almacen/EA_DataAlmacen.xlsx', sheet_name=0) # can also index sheet by name or fetch all sheets
+  mylist = df['Campos'].tolist() 
   print("--------- Data procesada y spliteada ---------")
-  print(data.split("|"))
+  print(mylist)
 
 
 if __name__=='__main__':
